@@ -1,0 +1,258 @@
+.div1{
+    height: 20vh;
+    width: 50%;
+    float: left;
+    padding-left: 2%;
+    background-color: white;
+    position: relative;
+    
+    
+}
+.div2{
+    height: 20vh;
+    width: 50%;
+    float: left;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    position: relative;
+}
+.a{
+    
+    font-size: 20px;
+    
+    
+}
+.b{
+   padding: 10px;
+   font-size: 20px;
+}
+.c{
+    padding: 10px;
+    font-size: 20px;
+}
+.d{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.cam{
+    height: 100vh;
+    width: 100%;
+    background-image: url(camera.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.div3{
+    height: 100vh;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.cct{
+    width: 100%;
+    height: 90vh;
+    z-index: 1 ;
+}
+.div4{
+    height: 100vh;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.fac{
+    height: 8vh;
+    padding-left: 43%;
+}
+.ins{
+    height: 8vh;
+}
+.logo{
+    height: 10vh;
+    position: fixed;
+    top: 90%;
+    left: 94%;
+    z-index: 1;
+    ;
+}
+.div5{
+    height: 115vh;
+    width: 100%;
+    padding-left: 12%;
+    position: relative;
+    padding-right: 12%;
+    font-size: larger;
+    text-align: center;
+
+   
+}
+.card{
+    width: 80%;
+    height: 70vh;
+}
+.bu{
+    background-color: darkblue;
+    width: 100%;
+    margin-top: 20%;
+    height: 7vh;
+    font-weight: 600;
+    color: white;
+    
+}
+.bu:hover{
+    background-color: lightslategray;
+}
+.bn2{
+    width: 12%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 7vh;
+    background-color: black;
+    color: white;
+}
+.bn2:hover{
+    background-color: darkblue;
+    border: 2px solid darkblue;
+}
+.bn1{
+    width: 12%;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    height: 7vh;
+    background-color: darkblue;
+    color: white;
+    
+}
+.bn1:hover{
+    background-color: black;
+    border: 2px solid black;
+}
+.bn3{
+    width: 33%;
+    height: 6vh;
+    background-color: rgb(44, 115, 214);
+    margin-top: 2%;
+    border: 2px solid  rgb(44, 115, 214);
+    border-radius: 5px;
+}
+.bn3:hover{
+    background-color: black;
+    border: 2px solid black;
+}
+.wat{
+    width: 15%;
+    height: 6vh;
+    padding-left: 3%;
+    margin-top: 1.3%;
+    float: left;
+}
+.fea{
+    padding-left: 6%;
+    margin-top: 1.7%;
+    float: left;
+    font-size: large;
+}
+.pri{
+    padding-left: 3%;
+    margin-top: 1.7%;
+    float: left;
+    font-size: large;
+}
+.btd{
+    background-color: rgb(44, 229, 109);
+    border-radius: 50px;
+    margin-top: 8%;
+    padding-right: 5%;
+    width: 85%;
+    height: 9vh;
+}
+.btd:hover{
+    background-color: black;
+    color: white;
+}
+.btd2{
+    background-color: rgb(30, 161, 74);
+    border-radius: 50px;
+    width: 25%;
+    height: 10vh;
+    color: white;
+    font-size: larger;
+}
+.btd3{
+    background-color: rgb(44, 229, 109);
+    border-radius: 50px;
+    border: 2px solid  rgb(44, 229, 109);
+    margin-top: 8%;
+    padding-right: 5%;
+    width: 85%;
+    height: 9vh;
+}
+.btd3:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+.btd4{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding-right: 5%;
+    width: 55%;
+    height: 9vh;
+    font-size: larger;
+}
+/* CSS for screens less than or equal to 768px wide (tablet and mobile devices) */
+@media screen and (max-width: 768px) {
+    /* Font size adjustment */
+    body {
+      font-size: 14px; /* Decrease font size for smaller screens */
+    }
+  
+    /* Other styles as needed */
+  }
+  
+  /* Additional CSS styles */
+  .header {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .nav-menu {
+    text-align: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .nav-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nav-menu ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .nav-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+    
